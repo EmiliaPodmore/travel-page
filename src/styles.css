@@ -1,0 +1,11 @@
+:root {
+  --background-colour: #f2f9f1;
+  --primary-colour: #5c715e;
+  --secondary-colour: #b6cdbd;
+  --accent-colour: #ddeedf;
+  --head-font-family: "Josefin Sans", serif;
+  --body-font-family: "Josefin Slab", sans-serif;
+}
+h1 {
+  font-family: var(--head-font-family);
+}
