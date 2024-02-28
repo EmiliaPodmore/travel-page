@@ -33,7 +33,7 @@ h1 {
   margin: 10px 0;
 }
 header h2 {
-  color: #000;
+  color: var(--accent-colour);
   font-family: var(--heading-font-family);
   font-weight: 400;
   font-size: 44px;
@@ -41,11 +41,11 @@ header h2 {
   margin: 20px 0;
 }
 header a {
-  display: inline-block;
-  color: #000;
-  background-color: var(--accent-colour);
+  color: var(--accent-colour);
+  background-color: #000;
   font-family: var(--default-font-family);
   text-decoration: none;
+  display: inline-block;
   border-radius: 6px;
   padding: 16px 32px;
   margin-top: 32px;
@@ -53,8 +53,9 @@ header a {
   transition: all 150ms ease-in-out;
 }
 header a:hover {
-  color: var(--accent-colour);
-  background-color: #000;
+  color: #000;
+  background-color: var(--accent-colour);
+  text-decoration: underline;
   cursor: pointer;
 }
 footer {
@@ -87,9 +88,9 @@ footer a {
   transition: all 150ms ease-in-out;
 }
 footer a:hover {
-  color: var(--secondary-colour);
+  color: #000;
 }
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
