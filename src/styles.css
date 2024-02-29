@@ -88,15 +88,16 @@ main {
 main h2 {
   color: var(--primary-colour);
   font-family: var(--heading-font-family);
-  font-size: 48px;
+  font-size: 44px;
   margin: 6px 0px;
+  line-height: 1.5;
 }
 main p {
   color: #736e68;
   font-family: var(--default-font-family);
   font-size: 20px;
   line-height: 1.5;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 section {
   max-width: 100%;
