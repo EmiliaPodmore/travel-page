@@ -1,7 +1,7 @@
 :root {
-  --background-colour: #f2f9f1;
+  --background-colour: #e3d9ca;
   --primary-colour: #5c715e;
-  --secondary-colour: #b6cdbd;
+  --secondary-colour: #a7b99e;
   --accent-colour: #fff8ed;
   --default-font-family: "Josefin Sans", serif;
   --heading-font-family: "Josefin Slab", sans-serif;
@@ -97,7 +97,13 @@ main p {
 section {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 90px 0;
+}
+section.content {
+  background-color: var(--primary-colour);
+}
+.content-heading {
+  color: var(--accent-colour);
 }
 footer {
   color: var(--accent-colour);
