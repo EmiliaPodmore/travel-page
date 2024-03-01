@@ -82,7 +82,7 @@ header h2 {
   font-size: 44px;
   line-height: 1.5;
   margin: 20px 0;
-  text-decoration: underline #fdac61;
+  text-decoration: underline 3px #fdac61;
 }
 header a {
   color: var(--accent-colour);
@@ -184,7 +184,7 @@ footer a {
   transition: all 150ms ease-in-out;
 }
 footer a:hover {
-  color: #000;
+  color: #fdac61;
 }
 @media (max-width: 960px) {
   header {
