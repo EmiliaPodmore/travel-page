@@ -121,7 +121,6 @@ header a:active {
   font-weight: 400;
   font-family: var(--default-font-family);
   display: inline-block;
-  margin: 10px 0;
   padding-left: 100%;
   animation: banner 40s linear infinite;
 }
