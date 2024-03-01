@@ -110,12 +110,12 @@ header a:active {
   display: block;
   filter: contrast(88%) saturate(120%);
 }
-.marquee {
+.banner {
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
 }
-.marquee h4 {
+.banner h4 {
   color: #fdac61;
   font-size: 24px;
   font-weight: 400;
@@ -123,9 +123,9 @@ header a:active {
   display: inline-block;
   margin: 10px 0;
   padding-left: 100%;
-  animation: marquee 60s linear infinite;
+  animation: banner 40s linear infinite;
 }
-@keyframes marquee {
+@keyframes banner {
   0% {
     transform: translate(0, 0);
   }
