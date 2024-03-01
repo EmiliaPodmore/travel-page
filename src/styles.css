@@ -33,6 +33,23 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
 }
+.card {
+  background-color: var(--accent-colour);
+  margin: 20px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+.instagram-embeds {
+  margin: 30px 0;
+}
 header {
   background-image: linear-gradient(
       rgba(184, 180, 180, 0.4),
@@ -48,7 +65,7 @@ header {
 h1 {
   font-family: var(--default-font-family);
   font-weight: 600;
-  font-size: 66px;
+  font-size: 72px;
   line-height: 1.5;
   margin: 10px 0;
 }
@@ -89,7 +106,8 @@ header a:active {
   transform: scale(0.9);
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 main {
   background-color: var(--accent-colour);
@@ -115,13 +133,6 @@ section {
 }
 section.content {
   background-color: var(--primary-colour);
-}
-.card {
-  background-color: var(--accent-colour);
-  margin: 20px 0;
-}
-.card-body {
-  padding: 30px;
 }
 hr {
   border: 1px solid #fdac61;
@@ -178,16 +189,24 @@ footer a:hover {
   h1 {
     font-size: 38px;
   }
-
   header h2 {
     font-size: 26px;
+  }
+  header h3 {
+    font-size: 12px;
   }
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
-
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
