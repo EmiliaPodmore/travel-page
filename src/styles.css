@@ -58,7 +58,7 @@ header {
     url("../images/gribin.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: var(--accent-colour);
+  color: var(--background-colour);
   text-align: center;
   padding: 200px 0;
 }
@@ -131,11 +131,14 @@ section {
   margin: 0 auto;
   padding: 90px;
 }
-section.content {
+section.places {
   background-color: var(--primary-colour);
 }
+section.gallery {
+  background-color: #736e68;
+}
 hr {
-  border: 1px solid #fdac61;
+  border: 0.5px solid #fdac61;
 }
 .btn {
   display: block;
