@@ -19,7 +19,7 @@ body {
 }
 .grid {
   display: grid;
-  grid-gap: 50px;
+  grid-gap: 40px;
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
@@ -82,7 +82,7 @@ header h2 {
   font-size: 44px;
   line-height: 1.5;
   margin: 20px 0;
-  text-decoration: underline 3px #fdac61;
+  text-decoration: underline 2.5px #fdac61;
 }
 header a {
   color: var(--accent-colour);
