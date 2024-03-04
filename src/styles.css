@@ -68,20 +68,6 @@ h1 {
   line-height: 1.5;
   margin: 10px 0;
 }
-h3.eateries {
-  color: var(--primary-colour);
-  font-family: var(--heading-font-family);
-  font-size: 36px;
-  line-height: 1.5;
-  margin: 10px 0;
-}
-h3.activities {
-  color: var(--secondary-colour);
-  font-family: var(--heading-font-family);
-  font-size: 36px;
-  line-height: 1.5;
-  margin: 10px 0;
-}
 header h2 {
   color: #fff8ed;
   font-family: var(--heading-font-family);
@@ -172,6 +158,20 @@ section.activities {
 section.gallery {
   background-color: #736e68;
   padding: 40px;
+}
+h3.eateries {
+  color: var(--primary-colour);
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+h3.activities {
+  color: var(--secondary-colour);
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  line-height: 1.5;
+  margin: 10px 0;
 }
 hr {
   border: 0.5px solid #e79d55;
