@@ -144,6 +144,24 @@ main p {
   line-height: 1.5;
   margin-top: 20px;
 }
+.btn {
+  text-align: center;
+  margin-top: 80px;
+}
+.btn a {
+  color: var(--accent-colour);
+  background-color: #736e68;
+  margin: 0 40px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 44px;
+  transition: all 150ms ease-in-out;
+}
+.btn a:hover {
+  color: var(--accent-colour);
+  background-color: var(--primary-colour);
+  cursor: pointer;
+}
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -260,6 +278,9 @@ footer a:hover {
   }
   section {
     padding: 30px;
+  }
+  .btn a {
+    font-size: 22px;
   }
   .grid {
     grid-template-columns: 1fr;
