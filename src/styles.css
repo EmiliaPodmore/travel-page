@@ -64,21 +64,12 @@ header {
 }
 h1 {
   color: #fff8ed;
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-weight: 600;
   font-size: 76px;
   line-height: 1.5;
   margin: 10px 0;
   text-shadow: var(--box-shadow);
-}
-header h2 {
-  color: #fff8ed;
-  font-family: var(--heading-font-family);
-  font-weight: 300;
-  font-size: 44px;
-  line-height: 1.5;
-  margin: 20px 0;
-  text-decoration: underline 2.5px #e79d55;
 }
 header a {
   color: var(--accent-colour);
@@ -114,7 +105,7 @@ header a:active {
 }
 .marquee h4 {
   color: var(--background-colour);
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 400;
   font-family: var(--default-font-family);
   letter-spacing: 4px;
