@@ -105,7 +105,7 @@ header a:active {
 }
 .marquee h4 {
   color: #e3d9ca;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
   font-family: "Courier New", Courier, monospace;
   letter-spacing: 4px;
@@ -130,23 +130,27 @@ main h2 {
   font-size: 44px;
   margin: 6px 0px;
   line-height: 1.5;
+  margin-bottom: 20px;
 }
 main p {
   color: #736e68;
   font-family: var(--default-font-family);
   font-size: 20px;
   line-height: 1.5;
-  margin-top: 40px;
+  margin-top: 20px;
+}
+small {
+  font-family: "Courier New", Courier, monospace;
 }
 .btn {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 40px;
 }
 .btn a {
   color: var(--accent-colour);
   background-color: #736e68;
-  margin: 0 40px;
+  margin: 0 30px;
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 44px;
