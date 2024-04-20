@@ -104,10 +104,10 @@ header a:active {
   overflow: hidden;
 }
 .marquee h4 {
-  color: var(--background-colour);
-  font-size: 24px;
-  font-weight: 400;
-  font-family: var(--default-font-family);
+  color: #e3d9ca;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
   letter-spacing: 4px;
   display: inline-block;
   padding-left: 100%;
@@ -136,11 +136,11 @@ main p {
   font-family: var(--default-font-family);
   font-size: 20px;
   line-height: 1.5;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .btn {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 100px;
   margin-bottom: 40px;
 }
 .btn a {
@@ -157,6 +157,11 @@ main p {
   background-color: var(--primary-colour);
   cursor: pointer;
   box-shadow: var(--box-shadow);
+}
+.hero {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 60px;
 }
 section {
   max-width: 100%;
