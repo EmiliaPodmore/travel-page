@@ -103,13 +103,14 @@ header a:active {
   white-space: nowrap;
   overflow: hidden;
 }
-.marquee h4 {
-  color: #e3d9ca;
-  font-size: 25px;
+.marquee em {
+  color: #e79d55;
+  font-size: 24px;
   font-weight: 500;
   font-family: "Courier New", Courier, monospace;
   letter-spacing: 4px;
   display: inline-block;
+  margin: 30px 0;
   padding-left: 100%;
   animation: marquee 50s linear infinite;
 }
@@ -139,8 +140,8 @@ main p {
   line-height: 1.5;
   margin-top: 20px;
 }
-small {
-  font-family: "Courier New", Courier, monospace;
+.hero {
+  margin-right: 10px;
 }
 .btn {
   text-align: center;
@@ -150,8 +151,8 @@ small {
 .btn a {
   color: var(--accent-colour);
   background-color: #736e68;
-  margin: 0 30px;
-  padding: 10px 14px;
+  margin: 0 40px;
+  padding: 10px 16px;
   border-radius: 50%;
   font-size: 44px;
   transition: all 150ms ease-in-out;
@@ -161,11 +162,6 @@ small {
   background-color: var(--primary-colour);
   cursor: pointer;
   box-shadow: var(--box-shadow);
-}
-.hero {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 40px 60px;
 }
 section {
   max-width: 100%;
@@ -198,6 +194,9 @@ h3.activities {
 }
 hr {
   border: 0.5px solid #e79d55;
+}
+small {
+  font-family: "Courier New", Courier, monospace;
 }
 .btn-eateries {
   display: block;
@@ -274,6 +273,9 @@ footer a:hover {
   }
   header h2 {
     font-size: 26px;
+  }
+  .marquee em {
+    font-size: 16px;
   }
   h3 {
     font-size: 22px;
