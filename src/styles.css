@@ -103,9 +103,9 @@ header a:active {
   white-space: nowrap;
   overflow: hidden;
 }
-.marquee em {
-  color: #e3d9ca;
-  font-size: 24px;
+.marquee p {
+  color: #e79d55;
+  font-size: 20px;
   font-weight: 500;
   font-family: "Courier New", Courier, monospace;
   letter-spacing: 4px;
