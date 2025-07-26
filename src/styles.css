@@ -1,5 +1,5 @@
 :root {
-  --background-colour: #e3d9ca;
+  --background-colour: #fff8ed;
   --primary-colour: #5c715e;
   --secondary-colour: #a7b99e;
   --accent-colour: #fff8ed;
@@ -98,30 +98,36 @@ header a:active {
   display: block;
   filter: contrast(82%) saturate(120%);
 }
+
 .marquee {
-  margin: 0 auto;
-  white-space: nowrap;
   overflow: hidden;
+  white-space: nowrap;
+  position: relative;
 }
-.marquee p {
-  color: #e79d55;
-  font-size: 20px;
+.marquee-inner {
+  display: inline-flex;
+  animation: marquee 60s linear infinite;
+}
+.marquee-inner p {
+  background-color: #e79d55;
+  color: var(--background-colour);
+  font-size: 18px;
   font-weight: 500;
   font-family: "Courier New", Courier, monospace;
   letter-spacing: 4px;
-  display: inline-block;
-  margin: 30px 0;
-  padding-left: 100%;
-  animation: marquee 50s linear infinite;
+  padding: 8px;
+  white-space: nowrap;
 }
+
 @keyframes marquee {
   0% {
-    transform: translate(0, 0);
+    transform: translateX(0%);
   }
   100% {
-    transform: translate(-100%, 0);
+    transform: translateX(-50%);
   }
 }
+
 main {
   background-color: var(--accent-colour);
 }
